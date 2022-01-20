@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h3 {
+  color: #606d5f;
+}
+
+p,
+li,
+a,
+button {
+  color: #888888;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-size: normal;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 1rem 3rem;
+  border: 2rem;
+  border: none;
+  outline: none;
+  line-height: 3.6rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-style: 2rem;
+}
+
+/* ----------Header Section---------- */
+header {
+  padding: 0 20rem;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  align-items: center;
+}
+
+header nav .logo h1 {
+  font-size: 3rem;
+}
+
+header nav .menu {
+  display: flex;
+}
+
+header nav .menu a {
+  margin-left: 4rem;
+}
+header nav .menu a li {
+  font-size: 2rem;
+  line-height: 3.6rem;
+  text-transform: capitalize;
+  transition: all 0.2s;
+}
+
+header nav .menu a li:hover {
+  color: #4b709e;
+}
